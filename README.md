@@ -12,7 +12,7 @@ This is my personal build of the dwm window manager that I use
 
 ## Dependencies
 
-- (https://github.com/redkittty/dwmblocks-envixty)[dwmblocks-envixty]
+- [dwmblocks-envixty](https://github.com/redkittty/dwmblocks-envixty)
 
 - Kitty Terminal Emulator
 
