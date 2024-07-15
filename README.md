@@ -14,6 +14,8 @@ This is my personal build of the dwm window manager that I use
 
 - [dwmblocks-envixty](https://github.com/redkittty/dwmblocks-envixty)
 
+- Flameshot
+
 - Kitty Terminal Emulator
 
 - Dmenu
