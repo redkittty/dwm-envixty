@@ -2,6 +2,8 @@
 
 This is my personal build of the dwm window manager that I use
 
+![Desktop](https://github.com/redkittty/dwm-envixty/blob/main/Screenshot/dwm.png)
+
 ## Patches
 
 | Patch Name         | Description                                |
