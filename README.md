@@ -11,6 +11,7 @@ This is my personal build of the dwm window manager that I use
 | Actual Full Screen | Adds and actual fullscreen functionality   |
 | Useless Gap        | Adds window gaps                           |
 | SelfRestart        | Allows you to restart dwm without a script |
+| AwesomeBar         | Makes dwm top bar more like AwesomeWM Bar  |
 
 
 ## Dependencies
