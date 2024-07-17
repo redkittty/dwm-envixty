@@ -15,6 +15,7 @@ This is my personal build of the dwm window manager that I use
 | CycleLayout        | Allows a keybind to cycle through layouts     |
 | Exit Menu          | Adds a menu for exiting dwm                   |
 | RotateStack        | Adds ability to move windows with keybindings |
+| Systray            | Adds a systray to the status bar              |
 
 
 ## Dependencies
