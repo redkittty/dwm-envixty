@@ -17,6 +17,7 @@ This is my personal build of the dwm window manager that I use
 | RotateStack        | Adds ability to move windows with keybindings |
 | Systray            | Adds a systray to the status bar              |
 | gridmode           | Adds a grid window layout                     |
+| pango              | Adds pango support fot the status bar         |
 
 
 ## Dependencies
