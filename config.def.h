@@ -59,7 +59,9 @@ static const Layout layouts[] = {
 	{ "[]=",      tile },    /* first entry is default */
 	{ "><>",      NULL },    /* no layout function means floating behavior */
 	{ "[M]",      monocle },
-  { "[-]",      grid },
+   { "[G]",      grid },
+	{ "[C]",      centeredmaster },
+	{ ">C>",      centeredfloatingmaster },
 	{ NULL,       NULL },
 };
 
@@ -90,17 +92,17 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-  { MODKEY|ShiftMask,             XK_b,      spawn,          {.v = webcmd } },
-  { MODKEY,                       XK_Print,  spawn,          {.v = screencmd } },
+   { MODKEY|ShiftMask,             XK_b,      spawn,          {.v = webcmd } },
+   { MODKEY,                       XK_Print,  spawn,          {.v = screencmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
-  { 0, XF86XK_AudioMute,                     spawn, {.v = mutecmd } },
-  { 0, XF86XK_AudioLowerVolume,              spawn, {.v = voldowncmd } },
-  { 0, XF86XK_AudioRaiseVolume,              spawn, {.v = volupcmd } },
+   { 0, XF86XK_AudioMute,                     spawn, {.v = mutecmd } },
+   { 0, XF86XK_AudioLowerVolume,              spawn, {.v = voldowncmd } },
+   { 0, XF86XK_AudioRaiseVolume,              spawn, {.v = volupcmd } },
 	{ MODKEY,                       XK_j,      focusstackvis,  {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstackvis,  {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_k,      rotatestack,    {.i = -1 } },
-  { MODKEY|ControlMask,           XK_j,      focusstackhid,  {.i = +1 } },
+   { MODKEY|ControlMask,           XK_j,      focusstackhid,  {.i = +1 } },
 	{ MODKEY|ControlMask,           XK_k,      focusstackhid,  {.i = -1 } },
 	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
@@ -109,7 +111,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
-	{ MODKEY|ControlMask,		        XK_comma,  cyclelayout,    {.i = -1 } },
+	{ MODKEY|ControlMask,		     XK_comma,  cyclelayout,    {.i = -1 } },
 	{ MODKEY|ControlMask,           XK_period, cyclelayout,    {.i = +1 } },
 	{ MODKEY,                       XK_space,  togglefloating, {0} },
 	{ MODKEY|ShiftMask,             XK_f,      togglefullscr,  {0} },
@@ -131,7 +133,7 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_7,                      6)
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
-  { MODKEY|ShiftMask,             XK_r,      self_restart,   {0} },
+   { MODKEY|ShiftMask,             XK_r,      self_restart,   {0} },
 	{ MODKEY|ShiftMask,             XK_q,      exitdwm,           {0} },
 };
 
