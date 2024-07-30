@@ -19,13 +19,13 @@ static const int showbar            = 1;     /* 0 means no bar */
 static const int topbar             = 1;     /* 0 means bottom bar */
 static const char font[]            = { "monospace 12" };
 static const char dmenufont[]       = "monospace:size=12";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_black[]       = "#1d202f";
-static const char col_cyan[]        = "#005577";
-static const char col_blue[]        = "#7aa2f7";
+static const char col_gray1[]       = "#282828";
+static const char col_gray2[]       = "#FBF1C7";
+static const char col_gray3[]       = "#EBDBB2";
+static const char col_gray4[]       = "#D5C4A1";
+static const char col_black[]       = "#1D2021";
+static const char col_cyan[]        = "#8EC07C";
+static const char col_blue[]        = "#83A598";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
